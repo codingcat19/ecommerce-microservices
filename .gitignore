@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+*/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+
+# Environment variables (sensitive data)
+.env.local
+.env.production
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Docker
+.dockerignore
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Build files
+build/
+dist/
+*.min.js
+*.min.css
+
+# MongoDB data
+data/
+
+# Frontend
+frontend/build/
+frontend/.env.local
+frontend/.env.production
+
+# Package lock files (optional - some teams commit these)
+# package-lock.json
+# frontend/package-lock.json
